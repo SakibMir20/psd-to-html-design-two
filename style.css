@@ -1,0 +1,1079 @@
+/* defult valus start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+/* defult valus end */
+
+body {
+    margin: 0;
+    color: #000;
+    font-family: Verdana,Geneva,sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Start First Section CSS */
+.first-section {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.first-section nav ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first-section nav ul::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.first-section nav ul li {
+    float: left;
+    margin: 0 20px 0 0;
+    position: relative;
+    font-size: 14px; 
+}
+.first-section nav ul li> a {
+    display: block;
+    padding: 30px 5px;
+    text-transform: uppercase;
+    color: #000;
+    border-top: 1px solid transparent;
+    transition: all .5s;
+}
+.first-section nav ul li:hover> a {
+    color: #82B7DF;
+    border-top: 1px solid #82B7DF;
+}
+.first-section nav ul li .active-pg {
+    color: #82B7DF;
+    border-top: 1px solid #82B7DF;
+}
+.first-section nav ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+}
+.first-section nav ul li:hover .dropdown {
+    display: block;
+}
+.first-section nav ul li .dropdown li {
+    float: none;
+    width: 200px;
+    border-bottom: 1px solid #ffffff;
+    margin: 0;
+    color: #474747;
+    background-color: rgba(255,255,255,.8);
+    transition: .5s;
+}
+.first-section nav ul li .dropdown li:hover {
+  background-color: #ffffff;
+  
+}
+.first-section nav ul li .dropdown li a {
+    padding: 10px 15px;
+    width: 132px;
+    text-transform: capitalize;
+    border-top: 0;
+}
+
+.first-section nav form {
+    display: none;
+}
+.first-section nav form select {
+    width: 100%;
+    color: #474747;
+    background-color: #FFFFFF;
+    border-color: #82B7DF;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #82B7DF;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+.first-section nav form select option {
+    margin: 5px;
+    padding: 0;
+    border: none;
+}
+
+
+
+/* End Nav */
+
+
+.first-section .bg-img {
+    background-image: url("images/bg-fist.png");
+    width: 100%;
+    height: 680px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.first-section .bg-img .container {
+    padding: 230px 0;
+}
+
+.first-section  .opacity-first {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.first-section .bg-img .opacity-first {
+
+}
+.first-section .bg-img .opacity-first h4 {
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 700;
+}
+.first-section .btn-in-first {
+    margin-top: 50px;
+}
+.first-section .btn-in-first a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
+    border: 1px solid #ffffff;
+    padding: 13px 15px;
+    transition: all .5s;
+}
+.first-section .btn-in-first a:first-child {
+    background-color: #82B7DF;
+    border-color: #82B7DF;
+    margin-right: 25px;
+}
+.first-section .btn-in-first a:first-child:hover {
+    background-color: transparent;
+}
+
+.first-section .btn-in-first a:last-child:hover {
+    background-color: #82B7DF;
+    border-color: #82B7DF;
+}
+
+/* End First Section  CSS */
+
+
+/* Start Second Section  CSS */
+.second-section {
+    width: 100%;
+    color: #474747;
+    overflow: hidden;
+}
+.second-section .container {
+    overflow: hidden;
+    width: 1265px;
+}
+.second-section .section-of-third {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    padding: 80px 0;
+}
+    /* start section left */
+.second-section .left-section {
+
+}
+.second-section .left-section h4 {
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 15px 0;
+    font-size: 37px;
+}
+.second-section .left-section hr {
+    width: 25%;
+    height: 5px;
+    background-color: #256492;
+    border-radius: 3px;
+    margin: 0 0 30px 0;
+}
+.second-section .left-section p {
+    line-height: 1.6em;
+}
+.second-section .left-section .p-one {
+    padding: 15px 0;
+}
+.second-section .left-section footer {
+    margin-top: 50px;
+}
+.second-section .left-section footer a {
+    padding: 12px 17px;
+    text-transform: uppercase;
+    border: 1px solid #82B7DF;
+    color: #FFFFFF;
+    background-color: #82B7DF;
+    transition: all .3s;
+}
+.second-section .left-section footer:hover a {
+    background-color: transparent;
+    color: #474747;
+    border-color: #474747;
+}
+    /* end section left */
+
+
+    /* start section right */
+.second-section .right-section {
+
+}
+.second-section .right-section a {
+    position: relative;
+    display: block;
+    width: 87%;
+    height: 350px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,.1);
+    overflow: hidden;
+}
+
+.second-section .right-section a img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    width: 96%;
+    
+}
+.second-section .right-section a i {
+    position: absolute;
+    font-size: 30px;
+    color: #ffffff;
+    top: 45%;
+    left: 45%;
+}
+
+.second-section .right-section a .hov-opcity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(37,100,146,.35)
+}
+
+.second-section .right-section a i,
+.second-section .right-section a .hov-opcity {
+    opacity: 0;
+    transition: all .3s;
+}
+.second-section .right-section a:hover i {
+    opacity: 1;
+} .second-section .right-section a:hover .hov-opcity {
+    opacity: 1;
+} 
+
+
+
+    /* end section right */
+
+/* End Second Section  CSS */
+
+
+/* Start Third Section  CSS */
+.third-section {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+    background-image: url("images/01.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.third-section .bg-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(11, 116, 158, 0.84);
+}
+.third-section .bg-color .container {
+    padding: 90px 0;
+}
+.third-section .bg-color .container h3 {
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+.third-section .bg-color .container p {
+    padding: 0 0;
+    line-height: 25px;
+}
+
+/* End Third Section  CSS */
+
+/* Start Fourth Section  CSS */
+.fourth-section {
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+}
+.fourth-section .container {
+    width: 1265px;
+    padding: 90px 0 0 0;
+    margin-bottom: 40px;
+}
+.fourth-section .top-section {
+    margin-bottom: 80px;
+}
+.fourth-section .top-section h5 {
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.fourth-section .top-section hr {
+    width: 7%;
+    height: 5px;
+    background-color: #256492;
+    border-radius: 3px;
+}
+
+
+
+.fourth-section .bottom-section {
+    width: 100%;
+    padding: 50px 0 0 0;
+    color: #ffffff;
+}
+.fourth-section .bottom-section::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.fourth-section .bottom-section .item-box {
+    width: 30.65%;
+    height: 250px;
+    background-color: #256492;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+
+.fourth-section .bottom-section .item-box-1,
+.fourth-section .bottom-section .item-box-3,
+.fourth-section .bottom-section .item-box-5 {
+    background-color: #82B7DF;
+}
+.fourth-section .bottom-section .item-box-3,
+.fourth-section .bottom-section .item-box-6 {
+    margin-right: 0;
+}
+
+.fourth-section .bottom-section .item-box .icon-out {
+    position: absolute;
+    top: -27px;
+    left: 12px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #474747;
+    font-size: 1.8rem;
+    line-height: 48px;
+    border: 1px solid rgba(0,0,0,.1);;
+    border-radius: 50%;
+    box-shadow: 2px 3px 0px 0px rgba(0,0,0,.3);
+    cursor: pointer;
+    z-index: 5;
+    transition-delay: .4s;
+    transition-duration: .5s;
+}
+.fourth-section .bottom-section .item-box:hover .icon-out {
+    color: #82B7DF;
+}
+
+
+.fourth-section .bottom-section .item-box h6 {
+    font-size: 1.4rem;
+    margin-top: 45px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.fourth-section .bottom-section .item-box p {
+    padding: 20px 20px;
+    line-height: 25px;
+}
+.fourth-section .bottom-section .item-box a {
+    color: #ffffff;
+}
+.fourth-section .bottom-section .item-box a .fa-arrow-right {
+    font-size: 40px;
+    transition-delay: .4s;
+    transition-duration: .5s;
+}
+.fourth-section .bottom-section .item-box-1:hover a .fa-arrow-right,
+.fourth-section .bottom-section .item-box-3:hover a .fa-arrow-right,
+.fourth-section .bottom-section .item-box-5:hover a .fa-arrow-right {
+    color: #256492;
+}
+.fourth-section .bottom-section .item-box-2:hover a .fa-arrow-right,
+.fourth-section .bottom-section .item-box-4:hover a .fa-arrow-right,
+.fourth-section .bottom-section .item-box-6:hover a .fa-arrow-right {
+    color: #82B7DF;
+}
+
+/* End Fourth Section  CSS */
+
+
+
+/* Start Fiveth Section  CSS */
+.fiveth-section {
+    width: 100%;
+    min-height: 230px;
+    overflow: hidden;
+    color: #ffffff;
+    background-image: url("images/01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.fiveth-section .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(79, 161, 194, 0.76);
+}
+.fiveth-section .bg-img .container {
+    width: 1265px;
+}
+
+.fiveth-section .bg-img .container h6 {
+    font-size: 1.3rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    margin: 100px 0;
+    float: left;
+    overflow: hidden;
+}
+
+.fiveth-section .bg-img .container .btn-a {
+    float: right;
+    overflow: hidden;
+}
+.fiveth-section .bg-img .container .btn-a a {
+    color: #256492;
+    background-color: #ffffff;
+    border: 1px solid #256492;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 40px;
+    margin: 100px 0;
+    transition: all .4s;
+}
+.fiveth-section .bg-img .container .btn-a:hover a {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+/* End Fiveth Section  CSS */
+
+
+/* Start Sixth Section  CSS */
+.sixth-section {
+    width: 100%;
+    min-height: 800px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.sixth-section .container {
+    width: 1265px;
+    padding: 90px 0 0 0;
+    margin-bottom: 100px;
+}
+
+.sixth-section .headline-section {
+    margin-bottom: 80px;
+}
+.sixth-section .headline-section h5 {
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sixth-section .headline-section hr {
+    width: 7%;
+    height: 5px;
+    background-color: #256492;
+    border-radius: 3px;
+}
+
+.sixth-section .container .profile-description-container {
+    width: 100%;
+    margin-top: 100px;
+}
+.sixth-section .container .profile-description-container .profile-box {
+    width: 22%;
+    min-height: 580px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.1);
+    float: left;
+    overflow: hidden;
+    margin-right: 4%;
+    text-align: center;
+    transition: all .3s;
+}
+.sixth-section .container .profile-description-container .profile-box:hover {
+    background-color: #F4F4F4;
+}
+.sixth-section .container .profile-description-container .profile-box-4 {
+    margin-right: 0;
+    margin-bottom: 100px;
+}
+.sixth-section .profile-box .profile-photo {
+    width: 80%;
+    height: 220px;
+    margin: 40px auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.sixth-section .profile-box .profile-photo a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+.sixth-section .container .profile-description-container .profile-box .profile-photo a img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.sixth-section .profile-box .profile-photo a i {
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    font-size: 2rem;
+    z-index: 10;
+    opacity: 0;
+    transition: all .5s;
+}
+.sixth-section .profile-box .profile-photo a .hov-opcity {
+    background: rgba(37,100,146,.35);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .5s;
+}
+.sixth-section .profile-box .profile-photo:hover a .hov-opcity,
+.sixth-section .profile-box .profile-photo:hover a i {
+    opacity: 1;
+}
+/* profile photo end */
+.sixth-section .profile-box .container-in-profile {
+    padding: 20px;
+}
+.sixth-section .profile-box h3 {
+    color: #474747;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    padding: 20px 0 3px 0;
+}
+.sixth-section .profile-box .p-1 {
+    color: #474747;
+    font-size: .8rem;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.sixth-section .profile-box .p-2 {
+    color: #474747;
+    padding: 40px 0;
+}
+
+
+.sixth-section .profile-box ul {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+.sixth-section .profile-box ul li {
+    float: left;
+    overflow: hidden;
+    margin: 5%;
+}
+.sixth-section .profile-box ul li a {
+    color: #474747;
+}
+.sixth-section .profile-box ul li a i {
+    font-size: 18px;
+    transition: all .3s;
+}
+.sixth-section .profile-box ul li a:hover .fa-facebook {
+    color: #3B5998;
+}
+.sixth-section .profile-box ul li a:hover .fa-google-plus-g {
+    color: #DB4A39;
+}
+.sixth-section .profile-box ul li a:hover .fa-linkedin {
+    color: #0E76A8;
+}
+.sixth-section .profile-box ul li a:hover .fa-twitter {
+    color: #00ACEE;
+}
+.sixth-section .profile-box ul li a:hover .fa-vk {
+    color: #4E658E;
+}
+
+/* End Sixth Section  CSS */
+
+
+/* Start Seventh Section  CSS */
+.seventh-section {
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.seventh-section .container {
+    padding: 90px 0 0 0;
+    margin-bottom: 100px;
+}
+
+.seventh-section .headline-section {
+    margin-bottom: 80px;
+}
+.seventh-section .headline-section h5 {
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.seventh-section .headline-section hr {
+    width: 7%;
+    height: 5px;
+    background-color: #256492;
+    border-radius: 3px;
+}
+
+
+
+.seventh-section .container .article-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.seventh-section .container .article-container .article {
+    width: 30.50%;
+    min-height: 300px;
+    color: #474747;
+    margin-right: 4.25%;
+    float: left;
+    overflow: hidden;
+}
+.seventh-section .container .article-container .article-3 {
+    margin-right: 0;
+}
+
+.seventh-section .article-container .article .p-1 {
+    background-color: #F4F4F4;
+    padding: 22px;
+    
+}
+
+.seventh-section .article-container .article .profile-box {
+    padding: 25px 20px;
+    overflow: hidden;
+}
+.seventh-section .article-container .article .profile-photo {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.seventh-section .article-container .article .name-n-title {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.seventh-section .article-container .article .name-n-title h5 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    line-height: 1;#
+}
+.seventh-section .article-container .article .name-n-title p {
+    font-size: .8rem;
+    margin-top: 3px;
+    font-style: italic;
+}
+.seventh-section .container .button-sec {
+    color: #ffffff;
+    background-color: #82B7DF;
+    border: 1px solid #82B7DF;
+    padding: 12px 20px;
+    transition: all .3s;
+    margin: 20px auto;
+    display: block;
+    width: 100px;
+}
+.seventh-section .container .button-sec:hover {
+    background-color: transparent;
+    color: #474747;
+    border-color: #474747;
+}
+
+/* End Seventh Section  CSS */
+
+
+/* Start Eighth Section  CSS */
+
+.eight-section {
+    background-color: #F4F4F4;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.eight-section .container {
+    padding: 90px 0 0 0;
+    margin-bottom: 70px;
+}
+
+.eight-section .headline-section {
+    margin-bottom: 80px;
+}
+.eight-section .headline-section h5 {
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.eight-section .headline-section hr {
+    width: 7%;
+    height: 5px;
+    background-color: #256492;
+    border-radius: 3px;
+}
+
+
+
+.eight-section .container .article-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.eight-section .container .article-container .article {
+    width: 30.50%;
+    min-height: 300px;
+    color: #474747;
+    margin-right: 4.25%;
+    margin-bottom: 30px;
+    float: left;
+    overflow: hidden;
+}
+.eight-section .container .article-container .article-3 {
+    margin-right: 0;
+}
+
+.eight-section .container .article-container .article .date-time {
+    font-size: .8rem;
+}
+.eight-section .container .article-container .article .date-time i {
+    margin-right: 5px;
+}
+.eight-section .container .article-container .article h6 {
+    padding: 20px 0;
+}
+.eight-section .container .article-container .article a {
+    color: #82B7DF;
+}
+.eight-section .container .article-container .article h6 .p-a {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: normal;
+}
+.eight-section .container .article-container .article .p-2 {
+    line-height: 1.6em;
+}
+.eight-section .container .article-container .article footer {
+    padding: 25px 0;
+    font-size: .8rem;
+}
+.eight-section .container .article-container .article footer .a-foot-1::after {
+    margin: 5px;
+    content: "|";
+    color: #474747;
+}
+
+.eight-section .container .article-container .article footer .a-foot-2::after {
+    content: ",";
+    color: #474747;
+}
+
+/* End Eighth Section  CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Footer/Nineth Section  CSS */
+
+
+.footer-section {
+    background-color: #1C1D1F;
+    width: 100%;
+    min-height: 476px;
+    overflow: hidden;
+}
+.footer-section .container {
+    overflow: hidden;
+}
+.footer-section .box {
+    width: 22%;
+    min-height: 310px;
+    padding: 80px 0 0 0;
+    color: #A8A8A8;
+    float: left;
+    overflow: hidden;
+    margin-right: 4%;
+}
+.footer-section .box a {
+    color: #82B7DF;;
+}
+
+
+.footer-section .box h6 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
+
+    /* Start Box 1 */
+.footer-section .box-1 .logo-div {
+    width: 100%;
+    height: 50px;
+}
+.footer-section .box-1 .foot-logo {
+    position: relative;
+}
+.footer-section .box-1 .foot-logo i {
+    color: #256492;
+    font-size: 3.5rem;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+.footer-section .box-1 .foot-logo h3 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    left: 65px;
+    top: 6px;
+}
+.footer-section .box-1 .foot-logo h3 span {
+    font-size: 1.8rem;
+}
+.footer-section .box-1 .p-1 {
+    padding: 50px 0;
+}
+
+.footer-section .box-1 ul li {
+    float: left;
+    overflow: hidden;
+}
+.footer-section .box-1 ul li a {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px 15px 0;
+    color: #474747;
+    background-color: #A8A8A8;
+    transition: all .5s;
+}
+.footer-section .box-1 ul li .fa-vk {
+    margin-right: 0;
+}
+
+.footer-section .box-1 ul li:hover .fa-facebook {
+    color: #ffffff;
+    background-color: #3B5998;
+} 
+
+
+
+.footer-section .box-1 ul li:hover .fa-google-plus-g {
+    color: #ffffff;
+    background-color: #DB4A39;
+} 
+
+.footer-section .box-1 ul li:hover .fa-linkedin {
+    color: #ffffff;
+    background-color: #0E76A8;
+} 
+.footer-section .box-1 ul li:hover .fa-twitter {
+    color: #ffffff;
+    background-color: #00ACEE;
+} 
+.footer-section .box-1 ul li:hover .fa-vk {
+    color: #ffffff;
+    background-color: #4E658E;
+} 
+
+    /* End Box 1 */
+
+
+    /* Start Box 2 */
+
+.footer-section .box-2 ul {
+    padding: 50px 0;
+}
+.footer-section .box-2 ul li {
+    padding: 14px 0;
+    overflow: hidden;
+    line-height: 1.6;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.footer-section .box-2 ul li:first-child {
+    border: none;
+}
+.footer-section .box-2 ul li i {
+    padding-right: 18px;
+}
+
+    /* End Box 2 */
+
+
+
+    /* Start Box 3 */
+
+
+.footer-section .box-3 ul {
+    padding: 50px 0;
+}
+.footer-section .box-3 ul li {
+    padding: 14px 0;
+    overflow: hidden;
+    line-height: 1.6;
+    overflow: hidden;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.footer-section .box-3 ul li:first-child {
+    border: none;
+}
+
+    /* End Box 3 */
+
+
+
+    /* Start Box 4 */
+.footer-section .box-4 {
+        margin-right: 0;
+}
+.footer-section .box-4 ul {
+        padding: 50px 0;
+}
+.footer-section .box-4 ul li {
+        padding: 14px 0;
+        overflow: hidden;
+        line-height: 1.6;
+        overflow: hidden;
+        border-top: 1px solid rgba(255,255,255,.1);
+}
+.footer-section .box-4 ul li:first-child {
+    border: none;
+}
+.footer-section .box-4 ul li p {
+    padding: 15px 0 0 0;
+}
+    /* End Box 4 */
+
+
+.copyright-foot {
+    color: #A8A8A8;
+    width: 100%;
+    min-height: 60px;
+    background-color: #151618;
+    border-top: 1px solid #333436;
+}
+.copyright-foot .container {
+    padding: 20px 0;
+}
+.copyright-foot .inner-box {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.copyright-foot .left {
+    float: left;
+    
+}
+.copyright-foot .right {
+    float: right;
+}
+
+/* Start Footer/Nineth Section  CSS */
